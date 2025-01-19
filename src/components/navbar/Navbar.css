@@ -1,0 +1,155 @@
+.part_one{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/Rectangle\ 13\ \(1\).png') no-repeat center center/cover;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.navbar h1{
+    margin-left: 10%;
+    font-family: cursive;
+    color: #EE1C45;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 150px;
+}
+.navbar li{
+    margin-left: 20px;
+}
+.navbar p{
+    margin-left: 120px;
+    text-decoration: underline;
+}
+.navbar button{
+    border: none;
+  padding: 13px 20px;
+  color: white;
+  margin-left: 70px;
+  cursor: pointer;
+  border-radius: 15px;
+  background: linear-gradient(to right, #e12d19, #fc7844);
+}
+
+@media(max-width:1286px){
+  .navbar ul{
+    margin-left: 20px;
+  }
+  .navbar p{
+    display: none;
+  }
+}
+@media(max-width:967px){
+  .navbar ul{
+    display: none;
+  }
+  .navbar button{
+    position: absolute;
+    right: 10%;
+  }
+}
+@media(max-width:632px){
+  .navbar h1{
+    margin-left: 20px;
+  }
+}
+
+/*  navbar is done */
+.part_one_insider{
+  width: 520px;
+  margin-left: 10%;
+  margin-top: 120px;
+}
+.part_one_insider h2{
+  font-family: cursive;
+  font-size: 25px;
+}
+.part_one_insider h1{
+  font-size: 75px;
+  margin-top: 10px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: rgba(170, 158, 158, 0.229);
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  width: 430px; /* Fixed width */
+  margin-top: 20px;
+}
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.divider {
+  width: 1px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 45px;
+}
+
+.search-button {
+  background: linear-gradient(45deg, #ff6a00, #ee0979); 
+  border: none;
+  padding: 10px;
+  margin-left: 50px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+@media(max-width:632px){
+  .part_one_insider{
+    margin-left: 20px;
+    width: 80%;
+  }
+  .part_one_insider h1{
+    font-size: 45px;
+  }
+}
+@media(max-width:512px){
+  .search-bar{
+    width: 100%;
+  }
+}
+@media(max-width:442px){
+  .search-button{
+    display: none;
+  }
+}

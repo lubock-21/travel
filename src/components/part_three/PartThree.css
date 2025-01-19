@@ -1,0 +1,45 @@
+.part_three{
+    text-align: center;
+    margin-top: 40px;
+}
+.part_three h2{
+    color: #CD1A40;
+    font-family: cursive;
+}
+.part_three h1{
+    font-size: 65px;
+    font-weight: 300;  
+}
+.part_three h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.part_three_cards{
+    display: flex;
+    width: 75%;
+    margin-left: 12%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.three_card{
+    width: 290px;
+    background-color:#FFF9F0;
+    margin: 20px;
+    color: #999999;
+    padding: 20px;
+}
+.special{
+  background: linear-gradient(to right, #e12d19, #fc7844);
+  color: white;
+}
+.special p{
+    color: #FFFFFF !important;
+}
+.three_card h3{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.three_card p{
+    margin-top: 10px;
+    font-size: 16px;
+}

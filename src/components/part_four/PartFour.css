@@ -1,0 +1,46 @@
+.part_four{
+    text-align: center;
+    margin-top: 40px;
+}
+.part_four h2{
+    color: #CD1A40;
+    font-family: cursive;
+}
+.part_four h1{
+    font-size: 65px;
+    font-weight: 300;  
+}
+.part_four h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.part_four_cards{
+    display: flex;
+    width: 85%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: left;
+}
+.four_card{
+    margin: 20px;
+    background-color: #FFF9F0;
+}
+.four_card h3{
+    text-transform: uppercase;
+    margin: 10px 20px;
+}
+.four_card_insider{
+    display: flex;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+
+@media(max-width:458px){
+    .part_four_cards{
+        margin-left: 20px;
+    }
+    .four_card img{
+        width: 100%;
+    }
+}

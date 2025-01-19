@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+}
+.App{
+  text-align: center;
+}
+.App h2{
+  margin-top: 25px;
+  color: red;
+  font-family: cursive;
+}
+.App h1{
+  font-size: 45px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.main{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  filter: brightness(90%);
+
+}
+
+.main_left{
+  background-image: url(./components/assets/Rectangle\ 17\ \(3\).png);
+  width: 45%;
+  align-items: center;
+  height: 500px;
+}
+.main_left p{
+  margin-top: 160px;
+  font-family: cursive;
+  font-size:35px;
+}
+.main_right p{ 
+  margin-top: 70px;
+  font-size: 30px;
+  font-family: cursive;
+}
+.main_right{
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+}
+.main_right_one{
+  width: 281px;
+  margin-left: 20px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+.greece{
+  background-image: url(./components/assets/Rectangle\ 18\ \(2\).png);
+}
+.dubai{
+  background-image: url(./components/assets/Rectangle\ 19.png);
+}
+.singapore{
+  background-image: url(./components/assets/Rectangle\ 20\ \(1\).png);
+  width: 100%;
+  height:232px ;
+  background-position: center;
+  background-size: cover;
+  margin: 20px 10px;
+}
+.main_button{
+  margin-top: 20px;
+  border: none;
+  padding: 15px 25px;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  background: linear-gradient(to right, #e12d19, #fc7844);
+}
+@media(max-width:767px){
+  .main{
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .main_left{
+    width: 99%;
+    background-repeat: no-repeat;
+  }
+  .main_right{
+    width: 99%;
+    margin-top: 20px;
+  }
+  .main_right_one{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .singapore{
+    width: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+.part_six{
+    text-align: center;
+    margin-top: 40px;
+}
+.part_six h2{
+    color: #CD1A40;
+    font-family: cursive;
+}
+.part_six h1{
+    font-size: 65px;
+    font-weight: 300; 
+    text-transform: uppercase; 
+}
+.part_six h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.part_six_card{
+    width: 70%;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 15%;
+    padding: 20px;
+    color: white;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to right, #e12d19,#fc7844);
+}
+.part_six_card p{
+    line-height: 25px;
+}
+.part_six_photo img{
+    margin: 20px;
+}
+@media(max-width:712px){
+    .part_six_card{
+        margin-left: 10px;
+        width: 86%;
+        height: auto;
+    }
+}

@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../assets/Rectangle\ 4\ \(7\).png') no-repeat center center/cover;
+}
+  
+.footer-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .description {
+    max-width: 300px;
+  }
+  
+  .social-icons i {
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  /* Media query to hide elements on smaller screens */
+  @media (max-width: 768px) {
+    .description, ul li {
+      display: none;
+    }
+}
+  
